@@ -19,6 +19,7 @@ crtl+O to write and ctrl+X to close the text editor
 2. In the terminal type
 ssh sunbird
 type uni password to login
+ctrl+d to exit
 
 3. Generate key pairs to log in without password
 ssh-keygen
@@ -32,7 +33,7 @@ type the uni password
 from now on we can use the paraphrase to login
 
 5. adding key to ssh-agent
-ssh-add
+ssh-add ~/.ssh/id_rsa # If you named your key differently, you need to replace id_rsa with your key name
 #enter paraphrase
 #type 
 ssh sunbird
